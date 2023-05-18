@@ -29,8 +29,10 @@ body {
 }
 
 .product-image img {
+    /* so good */
     display: flex;
-    height: 43rem;
+    
+    height: 44rem;
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
 }
@@ -47,7 +49,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 3rem;
-    gap: 2rem;
+    gap: 2.3rem;
     max-width: 29rem;
 }
 
@@ -65,12 +67,19 @@ body {
     font-size: 1.2rem;
 }
 
+/* so good */
+.buy-button:hover {
+    background-color: var(--very-dark-blue);
+}
+
 .category {
     text-transform: uppercase;
     font-weight: 500;
     color: var(--dark-grayish-blue);
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+
+    /* so good */
+    letter-spacing: 0.4rem;
 }
 
 .name {
@@ -78,10 +87,14 @@ body {
     font-weight: 700;
     font-size: 3rem;
     color: var(--very-dark-blue);
+
+    /* so good */
+    line-height: 3rem;
 }
 
 .description {
     color: var(--dark-grayish-blue);
+    line-height: 2.3rem;
 }
 
 .price {
