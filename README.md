@@ -4,7 +4,7 @@ Card de produto utilizando HTML e CSS.
 
 ## Preview
 
-![Preview do projeto](img/product-preview-card-component.png "QR Code component preview")
+![Preview do projeto](img/product-preview-card-component.png "Product preview card component")
 
 ## Tecnologias
 

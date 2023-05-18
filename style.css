@@ -29,9 +29,10 @@ body {
 }
 
 .product-image img {
-    /* so good */
+    /* talk about */
     display: flex;
-    
+    content: url(img/image-product-desktop.jpg);
+
     height: 44rem;
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
@@ -67,7 +68,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* so good */
+/* talk about */
 .buy-button:hover {
     background-color: var(--very-dark-blue);
 }
@@ -78,7 +79,7 @@ body {
     color: var(--dark-grayish-blue);
     font-size: 1.2rem;
 
-    /* so good */
+    /* talk about */
     letter-spacing: 0.4rem;
 }
 
@@ -88,7 +89,7 @@ body {
     font-size: 3rem;
     color: var(--very-dark-blue);
 
-    /* so good */
+    /* talk about */
     line-height: 3rem;
 }
 
@@ -114,4 +115,26 @@ body {
     color: var(--dark-grayish-blue);
     text-decoration: line-through;
     font-size: 1.2rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product-image img {
+        display: flex;
+
+        /* talk about */
+        content: url(img/image-product-mobile.jpg);
+        height: 25rem;
+        border-top-left-radius: 0.7rem;
+        border-top-right-radius: 0.7rem;
+        border-bottom-left-radius: 0;
+    }
+
+    .product-description {
+        max-width: 35rem;
+    }
 }
