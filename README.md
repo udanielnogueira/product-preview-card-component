@@ -17,4 +17,4 @@ Card de produto utilizando HTML e CSS.
 
 ## Link do desafio
 
-<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Product preview card component</a>
+<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Desafio do Product preview card component</a>
