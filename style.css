@@ -118,6 +118,7 @@ body {
 }
 
 /* Mobile */
+/* talk about */
 @media only screen and (max-width: 768px) {
     .product {
         flex-direction: column;
