@@ -1,9 +1,9 @@
 :root {
-    --dark-cyan: hwb(158 24% 50%);
+    --white: hsl(0, 0%, 100%);
     --cream: hsl(30, 38%, 92%);
+    --dark-cyan: hwb(158 24% 50%);
     --very-dark-blue: hsl(212, 21%, 14%);
     --dark-grayish-blue: hsl(228, 12%, 48%);
-    --white: hsl(0, 0%, 100%);
     font-size: 62.5%;
 }
 
@@ -29,10 +29,8 @@ body {
 }
 
 .product-image img {
-    /* talk about */
     display: flex;
     content: url(img/image-product-desktop.jpg);
-
     height: 44rem;
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
@@ -49,8 +47,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3rem;
     gap: 2.3rem;
+    padding: 3rem;
     max-width: 29rem;
 }
 
@@ -59,43 +57,38 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--dark-cyan);
+    gap: 1rem;
     padding: 1.5rem;
     border-radius: 0.7rem;
-    gap: 1rem;
     text-decoration: none;
-    color: var(--white);
     font-weight: 700;
     font-size: 1.2rem;
+    color: var(--white);
 }
 
-/* talk about */
 .buy-button:hover {
     background-color: var(--very-dark-blue);
 }
 
 .category {
-    text-transform: uppercase;
     font-weight: 500;
+    text-transform: uppercase;
     color: var(--dark-grayish-blue);
     font-size: 1.2rem;
-
-    /* talk about */
     letter-spacing: 0.4rem;
 }
 
 .name {
-    font-family: 'Fraunces';
-    font-weight: 700;
     font-size: 3rem;
-    color: var(--very-dark-blue);
-
-    /* talk about */
+    font-weight: 700;
+    font-family: 'Fraunces';
     line-height: 3rem;
+    color: var(--very-dark-blue);
 }
 
 .description {
-    color: var(--dark-grayish-blue);
     line-height: 2.3rem;
+    color: var(--dark-grayish-blue);
 }
 
 .price {
@@ -105,9 +98,9 @@ body {
 }
 
 .price-1 {
-    font-family: 'Fraunces';
-    font-weight: 700;
     font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Fraunces';
     color: var(--dark-cyan);
 }
 
@@ -118,7 +111,7 @@ body {
 }
 
 /* Mobile */
-/* talk about */
+
 @media only screen and (max-width: 768px) {
     .product {
         flex-direction: column;
@@ -126,13 +119,11 @@ body {
 
     .product-image img {
         display: flex;
-
-        /* talk about */
         content: url(img/image-product-mobile.jpg);
         height: 25rem;
+        border-bottom-left-radius: 0;
         border-top-left-radius: 0.7rem;
         border-top-right-radius: 0.7rem;
-        border-bottom-left-radius: 0;
     }
 
     .product-description {
