@@ -16,8 +16,8 @@
 body {
     font-size: 1.4rem;
     font-style: normal;
-    font-family: 'Montserrat', sans-serif;
     background-color: var(--cream);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -28,12 +28,12 @@ body {
     height: 100vh;
 }
 
-.product-image img {
+.product__image {
     display: flex;
-    content: url(img/image-product-desktop.jpg);
     height: 44rem;
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
+    content: url(img/image-product-desktop.jpg);
 }
 
 .product {
@@ -43,16 +43,16 @@ body {
     border-radius: 0.7rem;
 }
 
-.product-description {
+.product__description {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     gap: 2.3rem;
     padding: 3rem;
     max-width: 29rem;
 }
 
-.buy-button {
+.product__buy-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,17 +60,17 @@ body {
     gap: 1rem;
     padding: 1.5rem;
     border-radius: 0.7rem;
-    text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
     color: var(--white);
+    text-decoration: none;
 }
 
-.buy-button:hover {
+.product__buy-button:hover {
     background-color: var(--very-dark-blue);
 }
 
-.category {
+.product__category {
     font-weight: 500;
     text-transform: uppercase;
     color: var(--dark-grayish-blue);
@@ -78,7 +78,7 @@ body {
     letter-spacing: 0.4rem;
 }
 
-.name {
+.product__name {
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Fraunces';
@@ -86,25 +86,25 @@ body {
     color: var(--very-dark-blue);
 }
 
-.description {
+.product__text {
     line-height: 2.3rem;
     color: var(--dark-grayish-blue);
 }
 
-.price {
+.product__price {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.price-1 {
+.product__price-1 {
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Fraunces';
     color: var(--dark-cyan);
 }
 
-.price-2 {
+.product__price-2 {
     color: var(--dark-grayish-blue);
     text-decoration: line-through;
     font-size: 1.2rem;
@@ -117,13 +117,13 @@ body {
         flex-direction: column;
     }
 
-    .product-image img {
+    .product__image {
         display: flex;
-        content: url(img/image-product-mobile.jpg);
         height: 25rem;
         border-bottom-left-radius: 0;
         border-top-left-radius: 0.7rem;
         border-top-right-radius: 0.7rem;
+        content: url(img/image-product-mobile.jpg);
     }
 
     .product-description {

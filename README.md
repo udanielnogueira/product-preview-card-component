@@ -11,6 +11,10 @@ Card de produto utilizando HTML e CSS.
 - HTML5
 - CSS3
 
+## Informações
+
+Uso do padrão BEM de CSS
+
 ## Link de acesso
 
 <a href="https://udanielnogueira.github.io/product-preview-card-component/" target="_blank">Product preview card component</a>
