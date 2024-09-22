@@ -1,0 +1,130 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-cyan: hwb(158 24% 50%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  font-style: normal;
+  background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.product__image {
+  display: flex;
+  height: 44rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  content: url(../img/image-product-desktop.jpg);
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.7rem;
+  background-color: var(--white);
+}
+
+.product__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 29rem;
+  padding: 3rem;
+  gap: 2.3rem;
+}
+
+.product__buy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-cyan);
+  gap: 1rem;
+  padding: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.7rem;
+  font-size: 1.2rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.product__buy-button:hover {
+  background-color: var(--very-dark-blue);
+}
+
+.product__category {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+}
+
+.product__name {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  font-family: "Fraunces";
+  color: var(--very-dark-blue);
+}
+
+.product__text {
+  line-height: 2.3rem;
+  color: var(--dark-grayish-blue);
+}
+
+.product__prices {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.product__current-price {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Fraunces";
+  color: var(--dark-cyan);
+}
+
+.product__old-price {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+
+@media only screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .product__image {
+    display: flex;
+    height: 20rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    content: url(../img/image-product-mobile.jpg);
+  }
+
+  .product-description {
+    max-width: 35rem;
+  }
+}
