@@ -4,16 +4,16 @@ Card de produto utilizando HTML e CSS.
 
 ## Preview
 
-![Preview do projeto](img/product-preview-card-component.png "Product preview card component")
+![Preview do projeto](./assets/img/product-preview-card-component.png "Product preview card component")
 
 ## Tecnologias
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Informações
 
-Uso do padrão BEM de CSS
+Uso do padrão BEM de CSS.
 
 ## Link de acesso
 
