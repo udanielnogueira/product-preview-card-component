@@ -1,4 +1,4 @@
-# product-preview-card-component
+# Product Preview Card Component
 
 Card de produto utilizando HTML e CSS.
 
